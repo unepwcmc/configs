@@ -14,14 +14,20 @@ config files for vanilla setups
 - has ruby-debug19
 
 **To generate a new app from this template:**
-  rails new app_from_template -m /path/to/template.txt  -T
+
+    rails new app_from_template -m /path/to/template.txt  -T
 
 To rebuild the template:
 1. clone git@github.com:agnessa/rails_apps_composer.git
-2. build the gem: 
-  gem build rails_apps_composer.gemspec 
+2. build the gem:
+
+    gem build rails_apps_composer.gemspec 
+  
 3. install the gem: 
-  gem install rails_apps_composer-1.5.5.gem --local
+
+    gem install rails_apps_composer-1.5.5.gem --local
+  
 4. create the template choosing from the available recipes:
-  rails_apps_composer template ~/path/to/template.txt -r pg rspec_fg capistrano devel
+
+    rails_apps_composer template ~/path/to/template.txt -r pg rspec_fg capistrano devel
 
