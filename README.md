@@ -18,7 +18,11 @@ config files for vanilla setups
     rails new app_from_template -m /path/to/template.txt  -T
 
 To rebuild the template:
-1. clone git@github.com:agnessa/rails_apps_composer.git
+
+1. Clone the Repo
+
+    clone git@github.com:agnessa/rails_apps_composer.git
+
 2. build the gem:
 
     gem build rails_apps_composer.gemspec 
